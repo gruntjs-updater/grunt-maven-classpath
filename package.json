@@ -1,0 +1,41 @@
+{
+  "name": "grunt-maven-classpath",
+  "description": "Grunt plugin that determines the classpath of a maven project and makes it available to other plugins.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/3urdoch/grunt-maven-classpath",
+  "author": {
+    "name": "Andrew Murdoch",
+    "email": "aj.murdoch@propertypal.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/a3urdoch/gruntg-maven-classpath.git"
+  },
+  "bugs": {
+    "url": "https://github.com/3urdoch/grunt-maven-classpath/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/3urdoch/grunt-maven-classpath/blob/master/LICENSE-MIT"
+    }
+  ],
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "^0.9.2",
+    "grunt-contrib-clean": "^0.5.0",
+    "grunt-contrib-nodeunit": "^0.3.3",
+    "grunt": "~0.4.5"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.5"
+  },
+  "keywords": [
+    "gruntplugin"
+  ]
+}
