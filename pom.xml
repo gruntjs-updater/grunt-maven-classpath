@@ -9,24 +9,42 @@
 	<name>grunt-maven-classpath</name>
 
 	<dependencies>
-
-  <dependency>
-  	<groupId>grunt</groupId>
-  	<artifactId>mylib</artifactId>
-  	<version>0.0.1.-SNAPSHOT</version>
-    <scope>system</scope>
-    <systemPath>${basedir}/mylib/target/mylib-0.0.1-SNAPSHOT.jar</systemPath>
-  </dependency>
-	<dependency>
-		<groupId>org.apache.commons</groupId>
-		<artifactId>commons-lang3</artifactId>
-		<version>3.4</version>
-	</dependency>
-	<dependency>
-		<groupId>commons-io</groupId>
-		<artifactId>commons-io</artifactId>
-		<version>2.3</version>
-	</dependency>
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>servlet-api</artifactId>
+			<version>2.5</version>
+			<scope>provided</scope>
+		</dependency>
+		<dependency>
+			<groupId>javax.servlet.jsp</groupId>
+			<artifactId>jsp-api</artifactId>
+			<version>2.2</version>
+			<scope>provided</scope>
+		</dependency>
+	  <dependency>
+	  	<groupId>grunt</groupId>
+	  	<artifactId>mylib</artifactId>
+	  	<version>0.0.1.-SNAPSHOT</version>
+	    <scope>system</scope>
+	    <systemPath>${basedir}/mylib/target/mylib-0.0.1-SNAPSHOT.jar</systemPath>
+	  </dependency>
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-lang3</artifactId>
+			<version>3.4</version>
+		</dependency>
+		<dependency>
+			<groupId>commons-io</groupId>
+			<artifactId>commons-io</artifactId>
+			<version>2.3</version>
+		</dependency>
+		<dependency>
+	  	<groupId>grunt</groupId>
+	  	<artifactId>mylib</artifactId>
+	  	<version>0.0.1.-SNAPSHOT</version>
+	    <scope>system</scope>
+	    <systemPath>${basedir}/mylib/target/mylib-0.0.1-SNAPSHOT.jar</systemPath>
+	  </dependency>
 	</dependencies>
 
 </project>

@@ -46,6 +46,7 @@ module.exports = function(grunt) {
     var args = [
       '-Dmdep.outputFile=' + options.tempFile,
       '-Dmdep.pathSeparator=:',
+      '-DexcludeScope=provided',
       'dependency:build-classpath'
     ];
     
