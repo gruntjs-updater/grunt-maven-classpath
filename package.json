@@ -1,7 +1,7 @@
 {
   "name": "grunt-maven-classpath",
   "description": "Grunt plugin that determines the classpath of a maven project and makes it available to other plugins.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "homepage": "https://github.com/3urdoch/grunt-maven-classpath",
   "author": {
     "name": "Andrew Murdoch",
