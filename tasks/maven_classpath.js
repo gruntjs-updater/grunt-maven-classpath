@@ -45,7 +45,6 @@ module.exports = function(grunt) {
 
     var args = [
       '-Dmdep.outputFile=' + options.tempFile,
-      '-Dmdep.pathSeparator=:',
       '-DexcludeScope=provided',
       'dependency:build-classpath'
     ];
@@ -66,7 +65,7 @@ module.exports = function(grunt) {
       } else {
         var content = grunt.file.read( options.tempFile );
         grunt.log.writeln('Maven classpath is:');
-        content.split(/:/).forEach( function( path ) {
+        content.split(/:|;/).forEach( function( path ) {
           grunt.log.writeln(' ' + path);
           classpath.push( path );
         });
