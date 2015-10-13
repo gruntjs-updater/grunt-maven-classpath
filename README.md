@@ -121,5 +121,9 @@ instead includes the classes directory specified.
 In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using [Grunt](http://gruntjs.com/).
 
 ## Release History
-* 2015-10-01   v0.1.1   Exclude provided dependencies, fix Windows path separator issue
-* 2015-09-30   v0.1.0   Initial release
+* **2015-10-13 v0.1.2**
+  * Fix npm repository url
+* **2015-10-01 v0.1.1**   
+  * Exclude provided dependencies, fix Windows path separator issue
+* **2015-09-30 v0.1.0** 
+  * Initial release
